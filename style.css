@@ -7,13 +7,15 @@ body{
   margin-left: 45px;
   background-color: #2574a9;
   margin-top: 20px;
+  position: relative;
+  padding-bottom: 1px;
 }
 .titre-identite p{
   margin-top: 0px;
   padding-left: 15px;
 }
 .form-identite{
-border: 2px grey solid;
+border: 3px lightgrey groove;
 padding-left: 80px;
 background-color: #2574a9;
 margin-top: -22px;
@@ -24,13 +26,15 @@ margin-top: -22px;
   margin-left: 45px;
   background-color: #9a12b3;
   margin-top: 10px;
+  position: relative;
+  padding-bottom: 1px;
 }
 .titre-livraison p{
   margin-top: 0px;
   padding-left: 15px;
 }
 .form-livraison{
-border: 2px grey solid;
+border: 3px lightgrey groove;
 padding-left: 80px;
 background-color: #9a12b3;
 margin-top: -23px;
@@ -54,13 +58,15 @@ label{
   margin-left: 45px;
   background-color: #db0a5b;
   margin-top: 20px;
+  position: relative;
+  padding-bottom: 1px;
 }
 .titre-carte p{
   margin-top: 0px;
   padding-left: 15px;
 }
 .form-carte{
-border: 2px grey solid;
+border: 3px lightgrey groove;
 padding-left: 80px;
 background-color: #db0a5b;
 margin-top: -22px;
