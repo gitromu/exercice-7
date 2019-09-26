@@ -1,0 +1,70 @@
+body{
+  font-size: 1.3em;
+}
+.titre-identite{
+
+  width: 175px;
+  margin-left: 45px;
+  background-color: #2574a9;
+  margin-top: 20px;
+}
+.titre-identite p{
+  margin-top: 0px;
+  padding-left: 15px;
+}
+.form-identite{
+border: 2px grey solid;
+padding-left: 80px;
+background-color: #2574a9;
+margin-top: -22px;
+}
+/*------------------------------------------------------*/
+.titre-livraison{
+  width: 255px;
+  margin-left: 45px;
+  background-color: #9a12b3;
+  margin-top: 10px;
+}
+.titre-livraison p{
+  margin-top: 0px;
+  padding-left: 15px;
+}
+.form-livraison{
+border: 2px grey solid;
+padding-left: 80px;
+background-color: #9a12b3;
+margin-top: -23px;
+height: 300px;
+}
+.Adresse input{
+  height: 100px;
+  margin-top: 55px;
+}
+label input{
+  display: table-cell;
+  margin-bottom: 10px;
+}
+label{
+  vertical-align: bottom;
+}
+
+/*------------------------------------------------------*/
+.titre-carte{
+  width: 315px;
+  margin-left: 45px;
+  background-color: #db0a5b;
+  margin-top: 20px;
+}
+.titre-carte p{
+  margin-top: 0px;
+  padding-left: 15px;
+}
+.form-carte{
+border: 2px grey solid;
+padding-left: 80px;
+background-color: #db0a5b;
+margin-top: -22px;
+}
+.check{
+  margin-left: 45px;
+}
