@@ -1,5 +1,6 @@
 body{
   font-weight: bold;
+  font-size: 1.1rem;
 }
 #field1{
   background-color: #2574A9;
@@ -22,8 +23,13 @@ body{
 li{
   margin: 5px;
 }
-button{
-margin-top: 3px;
-padding-top: 3px;
-padding-bottom: 3px;
+fieldset{
+  margin-top: 3px;
+}
+
+ul{
+  list-style: none;
+}
+.button{
+margin-top: 5px;
 }
