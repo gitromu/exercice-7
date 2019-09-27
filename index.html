@@ -1,59 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css">
-    <title>formulaire</title>
+    <title></title>
   </head>
   <body>
-      <div class="titre-identite">
-        <p>Votre identité</p>
-      </div>
-      <div class="form-identite">
-        <div>
-          <p>1. Nom : <input type="text" name="nom" value="nom"></p>
-        </div>
-        <div>
-          <p>2. Prénom : <input type="text" name="prenom" value="Prénom"></p>
-        </div>
-        <div>
-          <p>3. Adresse mail : <input type="email" name="nom" value="Adresse mail"></p>
-        </div>
-      </div>
-      <div class="titre-livraison">
-        <p>Adresse de livraison</p>
-      </div>
-      <div class="form-livraison">
-        <div class="Adresse">
-          <label for="">1 . Adresse :</label>
-          <input type="text" name="adresse" value="">
-        </div>
-        <div>
-          <p>2. Code postal : <input type="text" name="code postal" value="Code postal"></p>
-        </div>
-        <div>
-          <p>3. Ville: <input type="text" name="ville" value="Ville"></p>
-        </div>
-      </div>
-      <div class="titre-carte">
-        <p>Information de reglement</p>
-      </div>
-      <div class="form-carte">
-        <div>
-          <p>1. Type de carte bancaire : </p>
-          <p class="check"><input type="checkbox" name="adresse" value=""> Visa</p>
-          <p class="check"><input type="checkbox" name="adresse" value="">Mastercard  </p>
-        </div>
-        <div>
-          <p>2. Numéro de carte : <input type="text" name="Numéro de carte" value="Numéro de carte"></p>
-        </div>
-        <div>
-          <p>3. Code de sécurité : <input type="text" name="Code de sécurité" value="Code de sécurité"></p>
-        </div>
-        <div>
-          <p>4. Nom du titulaire : <input type="text" name="Nom du titulaire" value="Nom du titulaire"></p>
-        </div>
-      </div>
-      <button type="button" name="j'achete">j'achete !</button>
+    <form class="myform" action="index.html" method="get">
+      <fieldset id="field1">
+        <legend>Votre identité</legend>
+        <ol>
+          <li>Nom : <input type="text" name="name" placeholder="Nom"></li>
+          <li>Prénom : <input type="text" name="nickname" placeholder=Prénom></li>
+          <li>Adresse mail : <input type="text" name="mail" placeholder="Email"></li>
+        </ol>
+      </fieldset>
+      <fieldset id="field2">
+        <legend>Adresse de livraison : </legend>
+        <ol>
+          <li>Adresse : <input type="text" id="adress" name="adress" > </li>
+          <li>Code postale : <input type="text" name="zip" placeholder="Code Postale"> </li>
+          <li>Ville : <input type="text" name="city" placeholder="Ville"> </li>
+        </ol>
+      </fieldset>
+      <fieldset id="field3">
+        <legend>Informations de paiement</legend>
+        <ol>
+          <li>Type de carte bancaire ?</li>
+          <p> <input type="radio" name="visa" value="visa"> VISA</p>
+          <p><input type="radio" name="master" value="master"> MasterCard</p>
+          <li>Numero de Carte :  <input type="text" name="card" placeholder="Numero de carte"> </li>
+          <li>Code de sécurité :  <input type="text" name="pin" placeholder="Code de sécurité"> </li>
+          <li>Nom du titulaire :  <input type="text" name="owner" placeholder="Nom du titulaire"> </li>
+        </ol>
+      </fieldset>
+    </form>
+    <div class="button">
+      <button type="button" name="button">j'achete</button>
+    </div>
   </body>
 </html>

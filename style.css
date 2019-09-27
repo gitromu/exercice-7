@@ -1,76 +1,37 @@
 body{
-  font-size: 1.3em;
+  font-weight: bold;
 }
-.titre-identite{
-
-  width: 175px;
-  margin-left: 45px;
-  background-color: #2574a9;
-  margin-top: 20px;
-  position: relative;
-  padding-bottom: 1px;
+#field1{
+  background-color: #2574A9;
 }
-.titre-identite p{
-  margin-top: 0px;
-  padding-left: 15px;
+#field1 legend{
+  background-color: #2574A9;
 }
-.form-identite{
-border: 3px lightgrey groove;
-padding-left: 80px;
-background-color: #2574a9;
-margin-top: -22px;
+#field2{
+  background-color: #9A12B3;
 }
-/*------------------------------------------------------*/
-.titre-livraison{
-  width: 255px;
-  margin-left: 45px;
-  background-color: #9a12b3;
-  margin-top: 10px;
-  position: relative;
-  padding-bottom: 1px;
+#field2 legend{
+  background-color: #9A12B3;
 }
-.titre-livraison p{
-  margin-top: 0px;
-  padding-left: 15px;
+#field3{
+  background-color: #DB0A5B;
 }
-.form-livraison{
-border: 3px lightgrey groove;
-padding-left: 80px;
-background-color: #9a12b3;
-margin-top: -23px;
-height: 300px;
+#field3 legend{
+  background-color: #DB0A5B;
 }
-.Adresse input{
+ol{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+li{
+  margin: 5px;
+}
+button{
+margin-top: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+#adress{
   height: 100px;
-  margin-top: 55px;
-}
-label input{
-  display: table-cell;
-  margin-bottom: 10px;
-}
-label{
   vertical-align: bottom;
-}
-
-/*------------------------------------------------------*/
-.titre-carte{
-  width: 315px;
-  margin-left: 45px;
-  background-color: #db0a5b;
-  margin-top: 20px;
-  position: relative;
-  padding-bottom: 1px;
-}
-.titre-carte p{
-  margin-top: 0px;
-  padding-left: 15px;
-}
-.form-carte{
-border: 3px lightgrey groove;
-padding-left: 80px;
-background-color: #db0a5b;
-margin-top: -22px;
-}
-.check{
-  margin-left: 45px;
 }
